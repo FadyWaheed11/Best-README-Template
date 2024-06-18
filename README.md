@@ -1,121 +1,22 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![download](https://github.com/othneildrew/Best-README-Template/assets/41761100/3d3d586e-b7f4-4e88-803d-dbacaecea04e)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This project is part of the Mobile Test Automation Challenge, Task 2. The objective is to automate a specific scenario on the 4Sale App using Appium. 
+This challenge tests the functionality, design patterns, code structure, and overall cleanliness and documentation of the automation code.
+This project involves creating an automated test script to ensure the correct functionality of the "Post an Ad" feature within the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list any major frameworks/libraries used to bootstrap this project.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+* [![Java][Java]][Java-url]
+* [![Selenium][Selenium]][Selenium-url]
+* [![Appium][Appium]][Appium-url]
+* [![TestNG][TestNG]][TestNG-url]
+* [![JsonSimple][JsonSimple]][JsonSimple-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -125,124 +26,145 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Before running the automation script for the 4Sale App using Appium, ensure the following prerequisites are met:
+1. **Java Development Kit (JDK):**
+   - Ensure JDK is installed on your system. You can download it from the [Java SE Downloads page](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+2. **Development Environment - IntelliJ IDEA:**
+   - Download and install IntelliJ IDEA from [jetbrains.com/idea/](https://www.jetbrains.com/idea/).
+3. **Node.js Installation:**
+   - Install Node.js from [nodejs.org](https://nodejs.org/). Node.js is required to run Appium server.
+4. **Appium Installation:**
+   - Install Appium by following the instructions on the [Appium Installation Guide](https://appium.io/docs/en/2.0/quickstart/install/).
+5. **UiAutomator2 Installation:**
+   - Install UiAutomator2 driver for Android testing following the instructions on the [UiAutomator2 Installation Guide](https://appium.io/docs/en/2.3/quickstart/uiauto2-driver/)
+6. **4Sale App Installation:**
+   - Install the 4Sale App on your mobile device or emulator where the automation will be executed from Google Play store [4saleApp](https://play.google.com/store/apps/details?id=com.forsale.forsale&hl=en)
+7. **Environment Variables (Optional):**
+    - Set up any necessary environment variables for Appium or your project configuration, such as paths or specific configurations.
 
-### Installation
+### Installation and Run
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Below is an example of how you can install and set up the project.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+3. Update the `desiredCapabilities.json` file with your `deviceName`, `deviceID` and `paltformVersion` in the project structure found at `src/main/resources/desiredCapabilities.json`
+  ```json
+{
+  "deviceName": "yourDeviceName",
+  "udid": "yourDeviceID",
+  "platformName": "Android",
+  "platformVersion": "yourAndroidVersion",
+  "automationName": "uiAutomator2",
+  "appPackage": "com.forsale.forsale",
+  "appActivity": "com.forsale.app.features.maincontainer.LauncherActivity"
+}
+```
+3. Run the scenarios from `PostAdTest` class found at `src/test/java/test_cases/PostAdTest.java`
+   
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Design Patterns & Concepts
+* [Page-Object-Model Pattern **POM**](#pom)
+* [Singleton Design Pattern](#singleton-design-pattern)
+* [Method Chaining Concept](#method-chaining-concept)
+* [Static Factory Method](#static-factory-method)
+* [Data Driven Techniques](#data-driven-techniques)
+* [Read & Write from **JSON** File](#read-write-from-json-file)
+## Project Structure
+* **Consists of two part**
+  - Main part which contains our framework
+  - Test part which contains our test scenarios
+  - ![Screenshot 2024-06-18 164045](https://github.com/othneildrew/Best-README-Template/assets/41761100/82db2e43-731c-4092-bba0-b769ab0e3753)
+## POM
+* Page Object Model (POM) is a design pattern, popularly used in test automation that creates Object Repository for UI elements.
+* The advantage of the model is that it reduces code duplication and improves test maintenance.
+* We separate the framework (coding part) from the testing part.
+* We represent each screen in our application by Class in the framework.
+* You can read more about POM structure on:
+  - [Guru99](https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html)
+  - [GeeksForGeeks](https://www.geeksforgeeks.org/page-object-model-pom/)
+  - [Official Selenium](https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/)
+  - [BrowserStack](https://www.browserstack.com/guide/page-object-model-in-selenium)
+## Singleton Design Pattern
+* Singleton design pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the jvm
+* So in our case we want to ensure that we have only one instance of AppiumDriver
+ ```java
+private static AppiumDriver driver;
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+public static AppiumDriver getAppiumDriver() {
+    if (driver == null) {
+        driver = new AppiumDriver(getAppiumServerUrl(), getCapabilities());
+        return driver;
+    }
+    return driver;
+}
+```
+* You can read more about singleton design pattern on:
+  - [TutorialsPoint](https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm)
+  - [GeeksForGeeks](https://www.geeksforgeeks.org/java-singleton-design-pattern-practices-examples/)
+  - [Medium](https://medium.com/geekculture/introduction-to-design-patterns-understanding-singleton-design-pattern-5a4d49960444#:~:text=The%20Singleton%20Design%20Pattern%20is,%3B%20in%20case%20of%20Java)
+## Method Chaining Concept
+* Method Chaining is the practice of calling different methods in a single line instead of calling other methods with the same object reference separately. Under this procedure, we have to write the object reference once and then call the methods by separating them with a (dot.).
+* Syntax -> `obj.method1().method2().method3();`
+* So in our case we made those methods return `this` which refers to the current object.
+```java
+public PostAdScreen clickOnChooseCategory() {
+    clickOnElement(categoryFieldLocator);
+    return this;
+}
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+public PostAdScreen selectAutomotiveCategory() {
+    clickOnElement(automotiveCategoryLocator);
+    return this;
+}
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+public PostAdScreen selectCarsSection() {
+    clickOnElement(carsFieldLocator);
+    return this;
+}
+```
+* So in our Test part instead of calling methods like this:
+```java
+public void test() {
+    postAdScreen.clickOnChooseCategory();
+    postAdScreen.selectAutomotiveCategory();
+    postAdScreen.selectCarsSection();
+}
+```
+* We do this:
+```java
+public void test() {
+    postAdScreen.clickOnChooseCategory()
+                .selectAutomotiveCategory()
+                .selectCarsSection();
+}
+```
+## Static Factory Method
+* The most widely used technique to allow other parts of our Java programs, to get objects of a certain type, is to create public constructors.
+* There is also another technique which is that provides various advantages and it would be highly recommendable for every programmer to know. Classes can provide static factory methods. This methods are another way of returning instances.
+* #### Advantages of static factory method
+  - The static factory method can have a meaningful name.
+  - Static factory methods can return the same type that implements the method, a subtype, and also primitives.
+  - Inside static factory method other than initialization if we want to perform any activity for every object creation like increasing count value for every object creation we can do this in the static factory method.
+  - Encapsulate the construction logic.
+* So How we will benefit from this in our framework ?
+  - If we are testing the UI of application , we might have 50 screen or more 
+  - And we had 50 test classes , we would have this new login screen called 50 times:
+ ```java 
+ public class LoginScreen {
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+    public  LoginScreen{
+        
+    }
+}
+```
+  - Imagine if we decide to change the constructor of this class , we will have to change it in 50 different places
+  - But with this, it's only one place:
 
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -252,19 +174,13 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[Java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
+[Java-url]: https://docs.oracle.com/en/java/
+[Selenium]: https://img.shields.io/badge/selenium-webdriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white
+[Selenium-url]: https://www.selenium.dev/documentation/webdriver/
+[Appium]: https://img.shields.io/badge/Appium-41BDF5?style=for-the-badge&logo=appium&logoColor=white
+[Appium-url]: https://appium.io/docs/en/latest/
+[TestNG]: https://img.shields.io/badge/TestNg-FF7F00?style=for-the-badge&logo=testng&logoColor=white
+[TestNG-url]: https://testng.org/
+[JsonSimple]: https://img.shields.io/badge/JSON_Simple-000000?style=for-the-badge&logo=json&logoColor=white
+[JsonSimple-url]: https://www.digitalocean.com/community/tutorials/json-simple-example
